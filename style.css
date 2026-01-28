@@ -2,6 +2,13 @@ body {
     background-color: 	#151515;
 }
 
+a {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: #fb7e14;
+    text-decoration: none;
+}
+
 .city11-title {
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
@@ -170,4 +177,11 @@ h1 {
 .footer a:hover {
     color: #ff8c42;
     text-decoration: underline;
+}
+
+.comms-invite {
+    display: block;
+    margin: auto;
+    border: 3px solid #fb7e14;
+    border-radius: 10px;
 }
