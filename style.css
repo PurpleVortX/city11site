@@ -1,0 +1,168 @@
+body {
+    background-color: 	#151515;
+}
+
+#city11-title {
+    font-family: 'Courier New', Courier, monospace;
+    color:	#fb7e14;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    color:	#fb7e14;
+}
+
+.team {
+    padding: 40px 20px;
+    background-color: #1a1a1a;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.team-title {
+    font-family: 'Courier New', Courier, monospace;
+    color: #fb7e14;
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.team-members {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.member {
+    background-color: #222;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 280px;
+    box-shadow: 0 4px 8px rgba(251, 126, 20, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.member:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(251, 126, 20, 0.4);
+}
+
+.member-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+    border: 3px solid #fb7e14;
+}
+
+.member-name {
+    font-family: 'Courier New', Courier, monospace;
+    color: #fb7e14;
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.member-role {
+    font-family: 'Courier New', Courier, monospace;
+    color: #fb7e14;
+    font-size: 14px;
+    margin: 0;
+}
+
+/* WANTED LIST STYLES */
+.wanted {
+    padding: 40px 20px;
+    background-color: #1a1a1a;
+}
+
+.wanted-title {
+    font-family: 'Courier New', Courier, monospace;
+    color: #ff4444;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 40px;
+    text-shadow: 0 0 10px rgba(255, 68, 68, 0.5);
+}
+
+.wanted-members {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.wanted-member {
+    background-color: #2a1515;
+    border: 3px solid #ff4444;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    width: 280px;
+    box-shadow: 0 4px 8px rgba(255, 68, 68, 0.3);
+    transition: transform 0.3s ease;
+}
+
+.wanted-member:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(255, 68, 68, 0.6);
+}
+
+.wanted-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 0;
+    object-fit: cover;
+    margin-bottom: 15px;
+    border: 3px solid #ff4444;
+    filter: grayscale(100%);
+}
+
+.wanted-name {
+    font-family: 'Courier New', Courier, monospace;
+    color: #ff4444;
+    font-size: 20px;
+    margin: 10px 0;
+    text-transform: uppercase;
+}
+
+.wanted-crime {
+    color: #ffaaaa;
+    font-size: 12px;
+    margin: 5px 0;
+    font-weight: bold;
+}
+
+.wanted-status {
+    font-family: 'Courier New', Courier, monospace;
+    color: #ff4444;
+    font-size: 11px;
+    margin: 5px 0;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #151515;
+    border-top: 2px solid #fb7e14;
+}
+
+.footer a {
+    font-family: 'Courier New', Courier, monospace;
+    color: #fb7e14;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.footer a:hover {
+    color: #ff8c42;
+    text-decoration: underline;
+}
+
