@@ -7,11 +7,17 @@ body {
     color:	#fb7e14;
     font-size: 48px;
     font-weight: bold;
+    text-align: center;
 }
 
 h1 {
     font-family: 'Courier New', Courier, monospace;
     color:	#fb7e14;
+}
+
+.doctrines {
+    padding: 40px 20px;
+    background-color: #1a1a1a;
 }
 
 .team {
